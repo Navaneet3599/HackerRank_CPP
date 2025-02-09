@@ -35,7 +35,7 @@ vector<int> parseInts(string str) {
     stringstream ss(str);
     string temp;
 
-    while(getline(ss, temp, ,)) //Paring through string for each , separated value
+    while(getline(ss, temp, ',')) //Paring through string for each , separated value
         arr.push_back(stoi(temp));  //Converting string to integer and storing it in vector
     */
     return arr;
